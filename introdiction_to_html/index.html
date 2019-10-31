@@ -8,35 +8,44 @@
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body id="home" class="open-left">
-        <section class="center">
+        <div id="offcanvas-left" class="hide">
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 1</a></li>                
+                <li><a href="#">Item 1</a></li>                        
+            </ul>
+        </div>        
+        <div class="togglebar">
+            <!-- adds the class of hide to .offcanvas.left -->
+            <div class="toggle" onclick="toggleLeft()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="center">
             <header>
                 <nav>
-                    Navigation
+                    <ul>
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 1</a></li>                
+                        <li><a href="#">Item 1</a></li>                        
+                    </ul>
                 </nav>
             </header>
             <section>
                 <main>
                     <article>
-                        <figure class="hero">
+                        <!-- <figure class="hero">
                             <img src="https://picsum.photos/1200/440/?image=201" alt="A desktop with a mouse on a desk and a pair of glassess" /> 
                             <figcaption>
                                 The figure image caption
                             </figcaption>
-                        </figure>
-                        <div class="responsive-vid">
-                            <video controls autoplay muted loop preload width="600" height="350">
-                                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                                <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
-                            </video>
-                        </div>
-                        <div class="resonsive-vid">
-                                <iframe width="600" height="350" src="https://www.youtube.com/embed/tAGnKpE4NCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
+                        </figure> -->
+
                     </article>              
                 </main>
             </section>
             <footer></footer>
-        </section>
+        </div>
         <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
