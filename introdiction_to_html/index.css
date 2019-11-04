@@ -126,8 +126,6 @@ nav a:hover {
     overflow-y: auto;
 }
 
-
-
 header {
     display: flex;
     align-items: center;
@@ -167,6 +165,9 @@ figure.hero figcaption * {
     font-weight: bold;
     font-size: 1.4em;
     text-transform: uppercase;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 #offcanvas-left ul,
 #offcanvas-right ul {
@@ -201,7 +202,8 @@ footer {
     background-color: var(--second-color);
     flex: 0 0 80px;
     flex-direction: row;
-    /* padding: 40px 0px; */
+    padding: 40px 0px;
+    /* min-height: 80px; */
 }
 footer section:first-child {
     grid-column: 2;
@@ -255,7 +257,9 @@ form textarea {
     resize: vertical;
 }
 
-
+main {
+    min-height: 500px;
+}
 article {
     display: grid;
     grid-template-columns: 10% 1fr 10%;
