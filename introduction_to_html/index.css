@@ -302,15 +302,22 @@ table.styled {
     width: 100%;
     border-collapse: collapse;
 }
-table.styled > thead, th {
+table.styled thead, table.styled th {
     background-color: #dfdfdf;
 }
-table.styled > thead, th {
+table.styled thead, table.styled th {
     text-align: center;
 }
 table.styled th, table.styled td {
     border: 1px solid lightgray;
     padding: 5px;
+}
+footer table.styled th {
+    background: none;
+    text-align: left;
+}
+footer table.styled th, footer table.styled td {
+    border: 0;
 }
 
 
