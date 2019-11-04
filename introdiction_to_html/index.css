@@ -17,8 +17,8 @@ html,body {
     overflow: hidden;
 }
 h1,h2,h3,h4,h5,h6 {
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-bottom: 0.2em;
+    padding-bottom: 0.2em;
     color: var(--first-color);
 }
 p {
@@ -294,6 +294,27 @@ article > blockquote {
     padding-left: 10px;
     margin-left: -20px;
 }
+
+
+/* Table styles */
+
+table.styled {
+    width: 100%;
+    border-collapse: collapse;
+}
+table.styled > thead, th {
+    background-color: #dfdfdf;
+}
+table.styled > thead, th {
+    text-align: center;
+}
+table.styled th, table.styled td {
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+
+
 p mark {
     background-color: var(--first-color);
     padding: 0 5px;
@@ -333,7 +354,6 @@ pre {
 pre > code {
     padding: 0;
 }
-
 .responsive-vid {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
