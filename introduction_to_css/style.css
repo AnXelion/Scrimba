@@ -1,15 +1,4 @@
-html, body {
-    margin: 0;
-    padding: 0;
+section > b, div > b {
+    color: blueviolet;
 }
-body {
-    background-color: #bbb;
-    color: black;
-}
-body {
-    background-color: black;
-    color: white;
-}
-section {
-    padding: 0 25px;
-}
+
