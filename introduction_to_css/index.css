@@ -1,9 +1,6 @@
-#inline * {
-    display: inline-block;
-    width: 200px;
-    height: 100px;
+.bar {
+    width: 50%;
 }
-#block * {
-    width: 200px;
-    height: 100px;
+.progress {
+    width: 50%;
 }
