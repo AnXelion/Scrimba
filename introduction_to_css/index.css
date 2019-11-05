@@ -1,19 +1,9 @@
-#id {
-    background-color: teal;
+#inline * {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
 }
-
-html .class {
-    background-color: tomato;
-}
-
-.class {
-    background-color: goldenrod;
-}
-
-html body {
-    background-color: aqua;
-}
-
-body {
-    background-color: gold;
+#block * {
+    width: 200px;
+    height: 100px;
 }
