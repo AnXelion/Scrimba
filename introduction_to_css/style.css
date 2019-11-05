@@ -3,7 +3,11 @@
     width: 100px;
     height: 100px;
     padding: 10px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    border: 10px solid lightcoral;
+    /* border-style: solid;
+    border-color: lightcoral;
+    border-width: 10px; */
 }
 .content {
     background-color: white;
