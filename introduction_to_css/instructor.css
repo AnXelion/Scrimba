@@ -44,12 +44,18 @@ section {
     justify-content: center;
     height: 100vh;
 }
-.parent {
+.margin {
+    background-color: var(--margin);
     display: flex;
+    /* border: 1px solid #222; */
+    /* padding: -1px; */
+    /* position: absolute; */
 }
 .box {
+    background-color: lightgrey;
 }
 .content {
+    background-color: var(--content);
     height: 100%;
     display: block;
     width: 100%;   
