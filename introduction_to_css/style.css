@@ -1,18 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
-body {
-    background-color: #3D85C6;
-    color: rgba(0,0,0,.8);
-    height: 95vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.inline {
+    background-color: slateblue;
+    color: white;
+    padding: 2px 5px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
 }
-
-.font {
-    /* font-family: 'Black Han Sans', arial, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    font-style: italic; */
-    
-    font: bold italic 30px 'Black Han Sans', arial;
+.block {
+    border: 2px solid tomato;
+    padding: 5px;
 }
