@@ -47,17 +47,14 @@ section {
 .margin {
     background-color: var(--margin);
     display: flex;
-    /* border: 1px solid #222; */
-    /* padding: -1px; */
-    /* position: absolute; */
 }
 .box {
     background-color: lightgrey;
-}
-.content {
-    background-color: var(--content);
-    height: 100%;
+    width: 100px;
+    height: 100px;
     display: block;
-    width: 100%;   
     text-align: center;
+    line-height: 100px;
+    margin: 0;
+    background-color: var(--content);
 }
