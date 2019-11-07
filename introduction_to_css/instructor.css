@@ -1,26 +1,37 @@
-html * {
-    /* box-sizing: border-box; */
-}
 html{
-    /* background-color: #3D85C6; */
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    padding: 1em;
-    margin: 0;
-}
-a, code, bold, italic {
-    padding: 0 5px;
-}
-
-header {
     background-color: slateblue;
+    /* padding: 0; */
+}
+html body > h1 {
     color: white;
     text-align: center;
+    padding: 10px 0;
 }
-header h1  {
+body {
+    background-color: transparent;
     margin: 0;
-    line-height: 100px;
+}
+.box {
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 2em;
+    /* margin-bottom: 25px; */
+    
+}
+section {
+    background-color: white;
+    padding: 25px;
+}
+.tomato {
+    background-color: tomato;
+}
+.purple {
+    background-color: purple;
+}
+.gold {
+    background-color: gold;
+}
+.green {
+    background-color: lightseagreen;
 }
