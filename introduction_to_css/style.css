@@ -1,26 +1,14 @@
-body {
-    padding-bottom: 100px;
+ul a:hover::before {
+    content: "⇨  ";
+    color: gold;
+    margin-right: 20px;
 }
 
-.first {
-    position: relative;
-    top: -40px;
-    margin-bottom: -40px;
-}
-.second {
-    position: relative;
-}
-.ribbon {
-    position: absolute;
-    top: 0px;
-    right: 20px;
-}
-.toplink {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-}
-footer {
-    position: fixed;
-    bottom: 0px;
-}
+
+/* 
+    Pseudo Elements
+    https://www.w3schools.com/css/css_pseudo_elements.asp
+    
+    Psudo Classes
+    https://www.w3schools.com/css/css_pseudo_classes.asp
+ */
