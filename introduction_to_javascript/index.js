@@ -1,9 +1,14 @@
-let firstName = 'Johnny';
-let lastName = 'Liu';
+// let number1 = 7;
+// let number2 = 7.5;
 
-console.log(`               ${firstName} ${lastName}`.length);
-console.log(`               ${firstName} ${lastName}`.trim().length);
-console.log(`${firstName} ${lastName}`.toUpperCase());
-console.log(`${firstName} ${lastName}`.toLowerCase());
-console.log(`${firstName} ${lastName}`.split(' '));
-console.log(`${firstName} ${lastName}`.split(''));
+// console.log(number1);
+// console.log(typeof number1);
+// console.log(number2);
+// console.log(typeof number2);
+
+
+let number = 6.6666;
+
+
+console.log(parseInt(number));
+console.log(number.toFixed(2));
