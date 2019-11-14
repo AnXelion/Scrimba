@@ -1,21 +1,7 @@
-let count = 0;
-
-while (false) {
-    count++;
-
-    if (count >= 20) {
-        break;
-    }
+function add(num1, num2) {
+    return num1 + num2;
 }
 
-console.log(count);
-
-do {
-    count++;
-
-    if (count >= 20) {
-        break;
-    }
-} while (false);
-
-console.log(count);
+console.log(add(10, 6));
+console.log(add(15, 5));
+console.log(add(20, 99));
