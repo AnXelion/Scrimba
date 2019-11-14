@@ -1,4 +1,16 @@
-console.log(10 === 10 && 5 < 4); // guess: false  answer: false
+let studentAnswer = 'A';
 
-console.log(10 === 10 || 5 < 4); // guess: true  answer: true
-console.log((5 >= 5 || 4 > 4) && 3 + 2 === 5);   // guess: true  answer: true
+
+switch(studentAnswer) {
+    case 'A':
+        console.log('A'); 
+        break;
+    case 'B':
+        console.log('B');
+        break;
+    case 'C':
+        console.log('C');
+        break;
+    default:
+        console.log('default');
+}
