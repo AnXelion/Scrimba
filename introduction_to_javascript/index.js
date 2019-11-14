@@ -1,8 +1,11 @@
 let example1 = 5;
 
-console.log(example1++);
-
-let example2 = 5;
-
-
-console.log(++example2);
+if (example1 === 6 || true === true) {
+    console.log("Run");
+}
+else if (false) {
+    console.log("else if");
+}
+else {
+    console.log("else");
+}
