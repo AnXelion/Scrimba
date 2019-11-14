@@ -1,22 +1,16 @@
-let example1 = [5, 7, "a"];
+let example1 = {
+    firstName: 'Johnny',
+    lastName: 'Liu',
+    address: {
+        city: 'Taipei',
+        district: 'unknown'
+    },
+    age: 27,
+    interest: ['guitar', 'video games']
+};
 
-example1.push("B", "G");
-example1.pop();
-
-example1.forEach((element) => {
-    console.log(element + ' ' + typeof element);
-});
-
-
-let example2 = example1;    // pass by reference
-let example3 = [...example1];
-let example4 = example1.map((element) => {
-    return element;
-});
-
-example2.push("FUCK");
+example1.age = 28;
 
 console.log(example1);
-console.log(example2);
-console.log(example3);
-console.log(example4);
+console.log(example1.hasOwnProperty('firstName'));
+console.log(example1.hasOwnProperty('surname'));
