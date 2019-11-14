@@ -1,16 +1,8 @@
-let studentAnswer = 'A';
+let total = 0;
+let numArray = [10, 20, 30, 40, 50, 60, 70, 80];
 
-
-switch(studentAnswer) {
-    case 'A':
-        console.log('A'); 
-        break;
-    case 'B':
-        console.log('B');
-        break;
-    case 'C':
-        console.log('C');
-        break;
-    default:
-        console.log('default');
+for (let i = 0; i < numArray.length; i++) {
+    total += numArray[i];
 }
+
+console.log(total);
