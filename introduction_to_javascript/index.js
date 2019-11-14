@@ -1,14 +1,8 @@
-let example1 = 1;
+let example1 = 5;
 
-example1 = example1 + 1;
-example1 += 1;
-example1++;
-++example1;
+console.log(example1++);
+
+let example2 = 5;
 
 
---example1;
-example1--;
-
-example1 %= 10;
-
-console.log(example1);
+console.log(++example2);
