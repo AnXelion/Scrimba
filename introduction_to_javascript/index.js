@@ -1,8 +1,21 @@
-let total = 0;
-let numArray = [10, 20, 30, 40, 50, 60, 70, 80];
+let count = 0;
 
-for (let i = 0; i < numArray.length; i++) {
-    total += numArray[i];
+while (false) {
+    count++;
+
+    if (count >= 20) {
+        break;
+    }
 }
 
-console.log(total);
+console.log(count);
+
+do {
+    count++;
+
+    if (count >= 20) {
+        break;
+    }
+} while (false);
+
+console.log(count);
