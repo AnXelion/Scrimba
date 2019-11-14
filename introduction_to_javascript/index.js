@@ -1,11 +1,4 @@
-let example1 = 5;
+console.log(10 === 10 && 5 < 4); // guess: false  answer: false
 
-if (example1 === 6 || true === true) {
-    console.log("Run");
-}
-else if (false) {
-    console.log("else if");
-}
-else {
-    console.log("else");
-}
+console.log(10 === 10 || 5 < 4); // guess: true  answer: true
+console.log((5 >= 5 || 4 > 4) && 3 + 2 === 5);   // guess: true  answer: true
