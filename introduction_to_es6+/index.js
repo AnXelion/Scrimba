@@ -1,5 +1,7 @@
-let [firstName, middleName, lastName]  = ['Dylan', 'Coding God', 'Israel'];
+function addressMaker(city, state) {
+    const newAddress = {city, state};
 
-lastName = 'Liu';
+    console.log(newAddress);
+}
 
-console.log(lastName);
+addressMaker('Austin', 'Texas');
