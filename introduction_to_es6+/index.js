@@ -1,11 +1,5 @@
-const personalInformation = {
-    firstName: 'Dylan',
-    lastName: 'Israel',
-    city: 'Austin',
-    state: 'Texas',
-    zipCode: 73301
-};
+let [firstName, middleName, lastName]  = ['Dylan', 'Coding God', 'Israel'];
 
-const {firstName:  fn, lastName: ln} =  personalInformation;
+lastName = 'Liu';
 
-console.log(`${fn} ${ln}`);
+console.log(lastName);
