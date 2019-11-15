@@ -1,7 +1,13 @@
-function addressMaker(city, state) {
-    const newAddress = {city, state};
+function addressMaker(address) {
+    const {city, state} = address;
 
-    console.log(newAddress);
+    const newAddress = {
+        city,
+        state,
+        country: 'United States'
+    };
+
+    console.log(`${newAddress.city}, ${newAddress.state}, ${newAddress.country}`)
 }
 
-addressMaker('Austin', 'Texas');
+addressMaker({city: 'Austin', state: 'Texas'});
