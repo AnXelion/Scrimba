@@ -1,10 +1,6 @@
-let example1 = {
-    firstName: 'Dylan'
-};
-
-let example2 = {
-    firstName: 'N/A',
-    ...example1
+function add(...nums) {
+    
+    console.log(nums);
 }
 
-console.log(example2);
+add(4, 5, 7, 8, 12)
