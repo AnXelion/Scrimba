@@ -1,13 +1,6 @@
-function addressMaker(address) {
-    const {city, state} = address;
+let fullName = "Dylan Coding God Israel";
 
-    const newAddress = {
-        city,
-        state,
-        country: 'United States'
-    };
 
-    console.log(`${newAddress.city}, ${newAddress.state}, ${newAddress.country}`)
+for (const char of fullName) {
+    console.log(char);
 }
-
-addressMaker({city: 'Austin', state: 'Texas'});
