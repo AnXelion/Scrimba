@@ -1,7 +1,10 @@
-let incomes = [62000, 67000, 75000];
+let example1 = {
+    firstName: 'Dylan'
+};
 
-for (let income of incomes) {
-   income += 500;   // no effect
+let example2 = {
+    firstName: 'N/A',
+    ...example1
 }
 
-console.log(incomes);
+console.log(example2);
