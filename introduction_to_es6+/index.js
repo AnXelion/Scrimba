@@ -1,9 +1,23 @@
-import {Animal, Cat} from './animal.js';
+const apiUrl = ' https://swapi.co/api/people';
 
-let cat = new Cat('Cat', 4, true);
+async function getTop100Campers() {
+    const response = await fetch(apiUrl);
+    const json = await response.json();
 
-cat.makeNoise('Meow!');
-console.log(cat.type);
+    console.log(json[0]);
+}
 
 
-console.log(Animal.return10());
+// function getTop100Campers() {
+//     fetch(apiUrl)
+//     .then((r) => r.json())
+//     .then((json) => {
+//         console.log(json[0])
+//     }).catch((error) =>{
+//         console.log('failed');
+//     });
+// }
+
+
+
+getTop100Campers();
