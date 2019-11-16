@@ -1,23 +1,18 @@
-const apiUrl = ' https://swapi.co/api/people';
+function resolveAfter3Seconds() {
+    return new Promise(resolve => {
+      setTimeout(() => {
+        resolve('resolved');
+      }, 3000);
+    });
+  }
+  
+  resolveAfter3Seconds().then((data) => {
+      console.log(data);
+  });
 
-async function getTop100Campers() {
-    const response = await fetch(apiUrl);
-    const json = await response.json();
+  async function getAsyncData() {
+    const result = await resolveAfter3Seconds();
+    console.log(result);
+  }
 
-    console.log(json[0]);
-}
-
-
-// function getTop100Campers() {
-//     fetch(apiUrl)
-//     .then((r) => r.json())
-//     .then((json) => {
-//         console.log(json[0])
-//     }).catch((error) =>{
-//         console.log('failed');
-//     });
-// }
-
-
-
-getTop100Campers();
+  getAsyncData();
