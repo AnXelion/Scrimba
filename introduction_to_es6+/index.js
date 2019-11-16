@@ -1,7 +1,9 @@
-let example = 'YouTube.com/CodingTutorials360';
+import {Animal, Cat} from './animal.js';
 
-console.log(example.padStart(100));
-console.log(example.padStart(100).length);
+let cat = new Cat('Cat', 4, true);
 
-console.log(example.padEnd(1));
-console.log(example.padEnd(1).length);
+cat.makeNoise('Meow!');
+console.log(cat.type);
+
+
+console.log(Animal.return10());
